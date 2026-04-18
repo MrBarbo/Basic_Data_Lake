@@ -2,7 +2,7 @@ import os
 import pandas as pd
 import dotenv
 from deltalake import DeltaTable
-import xtraccion, almacenamiento , transformaciones
+import extraccion, almacenamiento , transformaciones
 
 delta_sincontroles = "./data_lake/full"
 delta_incr_sincontroles = "./data_lake/incremental"
